@@ -1,0 +1,89 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+a:hover{
+    opacity: 0.7;
+}
+
+.cabecalho{
+    font-size: 25px;
+    text-transform:uppercase;
+    letter-spacing: 4px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: #A9ACA9;
+    height: 8vh;
+    font-family: system-ui,-apple-system, Helvetica, Arial,sans-serif;
+}
+
+.lista{
+    list-style: none;
+    display: flex;
+}
+
+.lista li{
+    letter-spacing: 3px;
+    margin-left: 25px;
+}
+
+#aboutme {
+    text-align: center;
+    background-image: url(10981780.jpg);
+    background-position:center;
+    background-size:cover;
+    color: white;
+    background-repeat: no-repeat;
+    height: 95vh;
+    font-family: system-ui,-apple-system, Helvetica, Arial,sans-serif;
+}
+
+#aboutme h1{
+    font-size: 50px;
+    padding-top: 90px;
+}
+
+#aboutme p{
+    font-size: 25px;
+}
+
+#skills{
+    text-align: center;
+    font-family: system-ui,-apple-system, Helvetica, Arial,sans-serif;
+    background-color: #130038;
+    color: white;
+    height: 60vh;
+}
+
+#skills h4{
+    
+    text-align: left;
+    font-size: 35px;
+    padding-top: 90px;
+    padding-left: 50px;
+}
+#skills p{
+    position: absolute;
+    font-size: 20px;
+    padding-left: 50px;
+    font-style: normal;
+    font-weight: normal;
+    text-align: justify;
+}
+
+
+
+#skillsen p{
+    width: 483px;
+}
