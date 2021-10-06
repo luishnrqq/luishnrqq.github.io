@@ -59,13 +59,16 @@ nav{
 }
 
 #skills{
-    text-align: center;
+    
     font-family: system-ui,-apple-system, Helvetica, Arial,sans-serif;
     background-color: #130038;
     color: white;
-    height: 60vh;
+    height: 50vh;
+    
 }
-
+#skills section{
+    display: inline;
+}
 #skills h4{
     
     text-align: left;
@@ -82,8 +85,40 @@ nav{
     text-align: justify;
 }
 
-
-
 #skillsen p{
     width: 483px;
+}
+
+#hard section{
+    background-color: #130038;
+}
+
+#hard h5{
+    top: 1260px;
+    left: 50px;
+    position: absolute;
+    font-size: 50px;
+    text-align: justify;
+}
+
+#hardskills{
+    background-color: #7C238C;
+    left: 200px;
+    font-family:system-ui,-apple-system, Helvetica, Arial,sans-serif;
+    color: white;
+}
+
+#hardskills h5{
+    font-size: 50px;
+    
+    padding-left: 50px;
+}
+
+#hardskills li{
+    padding-left: 55px;
+    font-size: 20px;
+}
+
+#contactme{
+    background-color: #A9ACA9;
 }
